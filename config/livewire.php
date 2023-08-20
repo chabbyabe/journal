@@ -2,6 +2,7 @@
 
 return [
 
+    'asset_url' => 'js/livewire/livewire.js',
     /*
     |---------------------------------------------------------------------------
     | Class Namespace
