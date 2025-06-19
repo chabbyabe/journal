@@ -357,6 +357,40 @@
 
         <section id="portfolio" class="portfolio section light-background">
             <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>
+                <div class="flex row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4 flex-wrap">
+
+                    <div class="col">
+                        <div class="grid-item"><i class="bi bi-file-earmark-code tech-icon js"></i>
+                            <div>JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-item"><i class="bi bi-terminal tech-icon python"></i>
+                            <div>Python</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-item"><i class="bi bi-code-slash tech-icon php"></i>
+                            <div>PHP</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-item"><i class="bi bi-phone tech-icon flutter"></i>
+                            <div>Flutter</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-item"><i class="bi bi-layers tech-icon laravel"></i>
+                            <div>Laravel</div>
+                        </div>
+                    </div>
+                </div>
+                </p>
+            </div>
+
+            <div class="container section-title" data-aos="fade-up">
                 <h2>My GitHub Projects</h2>
                 <p>
                 <ul id="github-projects"></ul>
@@ -376,7 +410,6 @@
         </div>
     </footer>
 
-    <!-- Scroll Top -->
     <a href="#" id="scroll-top"
         class="scroll-top fixed bottom-4 right-4 z-50 w-14 h-14 bg-gray-600 text-white rounded-full shadow-lg hover:bg-gray-800 transition duration-300 ease-in-out flex items-center justify-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"

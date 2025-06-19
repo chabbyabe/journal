@@ -236,7 +236,6 @@ h6 {
     }
 }
 
-
 .header.header-show {
     left: 0;
 }
@@ -1312,22 +1311,60 @@ main > section:not(#home) {
 .grid-item:hover {
     background-color: #f8f9fa;
 }
-.js      { color: #f7df1e; }
-.python  { color: #306998; }
-.php     { color: #8993be; }
-.flutter { color: #02569B; }
-.laravel { color: #f55247; }
-.react   { color: #61dafb; }
-.django  { color: #092e20; }
-.drf     { color: #f24333; }
-.ts      { color: #3178c6; }
-.tailwind{ color: #38bdf8; }
-.bootstrap { color: #7952b3; }
-.livewire{ color: #4e5d94; }
-.alpine  { color: #8ca2b5; }
-.git     { color: #f05033; }
-.chartjs { color: #ff6384; }
-.jquery  { color: #0769ad; }
-.sql     { color: #00758f; }
-.figma   { color: #a259ff; }
-.csharp  { color: #9b4f96; }
+.js {
+    color: #f7df1e;
+}
+.python {
+    color: #306998;
+}
+.php {
+    color: #8993be;
+}
+.flutter {
+    color: #02569b;
+}
+.laravel {
+    color: #f55247;
+}
+.react {
+    color: #61dafb;
+}
+.django {
+    color: #092e20;
+}
+.drf {
+    color: #f24333;
+}
+.ts {
+    color: #3178c6;
+}
+.tailwind {
+    color: #38bdf8;
+}
+.bootstrap {
+    color: #7952b3;
+}
+.livewire {
+    color: #4e5d94;
+}
+.alpine {
+    color: #8ca2b5;
+}
+.git {
+    color: #f05033;
+}
+.chartjs {
+    color: #ff6384;
+}
+.jquery {
+    color: #0769ad;
+}
+.sql {
+    color: #00758f;
+}
+.figma {
+    color: #a259ff;
+}
+.csharp {
+    color: #9b4f96;
+}
