@@ -59,7 +59,7 @@
 
             <img src="{{ asset('portfolio/assets/img/home-bg.png') }}" alt="" data-aos="fade-in" class="">
 
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="container px-5" data-aos="fade-up" data-aos-delay="100">
                 <h2>Abegail Isidro</h2>
                 <p>I'm a <span class="typed" data-typed-items="Full-Stack Software Engineer">Full-Stack</span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
@@ -229,16 +229,15 @@
                 <p></p>
             </div>
 
-            <div class="container">
-
-                <div class="flex row">
-                    <div class="col-12 col-md-6 w-200" data-aos="fade-up" data-aos-delay="100">
+            <div class="container break-word">
+                <div class="flex row row-cols-1 row-cols-md-2 cv-row">
+                    <div class="col w-200" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="cv-title">Sumary</h3>
 
                         <div class="pb-0 cv-item">
                             <h4 class="font-bold">Abegail Isidro</h4>
                             <p>
-                            <div>With over five years in software
+                            <div class="break-text">With over five years in software
                                 development, I specialize in
                                 creating advanced web and mobile
                                 applications. My expertise is in
@@ -288,7 +287,7 @@
 
                     </div>
 
-                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="cv-title">Professional Experience</h3>
                         <div class="cv-item">
                             <h4>Software Engineer</h4>
