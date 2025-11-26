@@ -18,6 +18,19 @@
         rel="stylesheet">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NN6Q9P9KKX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NN6Q9P9KKX');
+    </script>
 </head>
 
 <body class="index-page">
@@ -34,10 +47,11 @@
         </a>
 
         <div class="text-center social-links">
-            <a href="https://x.com/chabbyabe" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.instagram.com/chabbyabe" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="https://github.com/chabbyabe" class="github"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/abegail-isidro-816027112/" class="linkedin"><i
+            <a href="https://x.com/chabbyabe" class="twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/chabbyabe" class="instagram" target="_blank"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://github.com/chabbyabe" class="github" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/abegail-isidro-816027112/" class="linkedin" target="_blank"><i
                     class="bi bi-linkedin"></i></a>
         </div>
 
@@ -316,7 +330,7 @@
                         </div>
 
                         <div class="cv-item">
-                            <h4>Junior Software Developer (Mobile Developer)</h4>
+                            <h4>Software Developer</h4>
                             <h5> Aug 2018 - Jun 2019</h5>
                             <p>
                             <div class="font-bold">TraXion Tech Inc., Davao, Philippines </div>
@@ -332,7 +346,7 @@
                         </div>
 
                         <div class="cv-item">
-                            <h4>Software Developer</h4>
+                            <h4>Junior Software Developer</h4>
                             <h5> Jun 2018 - Aug 2018</h5>
                             <p>
                             <div class="font-bold">Mapletech IT Solutions (Acquired by TraXion Tech Inc), Tagum,
